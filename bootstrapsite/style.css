@@ -28,13 +28,11 @@ nav p {
 }
 p {
   text-align: justify;
-  width: 90%;
 }
-.pad {
-  padding-left: 60px;
-}
-.pad2 {
-  padding-left: 60px;
+.zadnji_text {
+  margin: auto;
+  width: 80%;
+  padding-top: 20px;
 }
 .row img {
   margin-top: 50px;
@@ -58,7 +56,6 @@ nav a {
 }
 #about {
   padding-top: 70px;
-  height: 100vh;
 }
 
 footer {
@@ -68,10 +65,17 @@ footer {
   display: inline-block;
   float: right;
   margin-left: 15px;
+
+  padding: 5px;
+  width: 60px;
+  text-align: center;
+  background-color: lightsteelblue;
 }
 .divv a {
-  color: black;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
 }
+
 @media (max-width: 600px) {
   nav {
     width: 80%;
@@ -96,7 +100,7 @@ footer {
     width: 50px;
     height: 50px;
     position: fixed;
-    margin-left: 77%;
+    margin-left: 73%;
     margin-top: 10%;
   }
 }
