@@ -16,13 +16,20 @@
     <main>
         <nav class="box">
             <p>Bootstrap</p>
-            <a href="#index">Home</a>
-            <a href="#about">About</a>
             <a href="#footer">Contact</a>
+            <a href="#about">About</a>
+           
+            <a href="#index">Home</a>
+            
+            
         </nav>
         <section id="about">
             <div class="high"></div>
+            <h2>About</h2>
+            
+            
             <div class="row">
+                
                 <div class="pad col-xs-12 col-md-12 col-lg-6">
                     <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit. Officiis officia cum repudiandae, vitae enim, magni dicta eveniet sapiente
@@ -34,6 +41,7 @@
                         inventore corrupti dicta accusamus. Velit fuga culpa minus?</p>
                 </div>
             </div>
+            <h3 class="gal">Gallery</h3>
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-lg-3">
                     <img class="img1" src="img/img1.png">
@@ -56,7 +64,41 @@
             
 
         </section>
-
+        <section class="contact">
+            <h2>Contact</h2>
+            <div class="lokacija">
+            <form action="">
+                <table class="tabela">
+                    <tr >
+                        <td class="txt">First name</td>
+                        <td><input type="text" name="firstname" placeholder="Your name"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt">Last name</td>
+                        <td><input type="text" name="lastname" placeholder="Your lastname"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt">Email</td>
+                        <td><input type="text" name="email" placeholder="Email"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt">Message</td>
+                        <td><input type="text" name="text" placeholder="Your message" class="msg"></td>
+                    </tr>
+                    <tr>
+                        <td class="txt "></td>
+                        <td><input type="submit" name="posalji" value="Send" class="btn"></td>
+                    </tr>
+                    
+                </table>
+                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22378.551157857713!2d-122.80664558711891!3d45.48352269938495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495082476f88863%3A0x10e0cf158aacbd08!2sBeaverton%2C+OR%2C+USA!5e0!3m2!1sen!2sba!4v1555921351491!5m2!1sen!2sba" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+            </form>
+        
+         
+                
+        </div>
+        </section>
         <section>
             <footer class="footer-wrap" id="footer">
                 <hr>
@@ -72,6 +114,7 @@
                     <div class="divv">
                         <a href="">Email</a>
                     </div>
+                    
                 </div>
 
             </footer>
