@@ -78,6 +78,7 @@ section {
   width: 100%;
   height: 100vh;
   object-fit: fill;
+  position: relative;
 }
 
 .container2 {
@@ -85,21 +86,57 @@ section {
 }
 .text1 {
   position: absolute;
-  bottom: 290px;
-  left: 70%;
-  font-size: 65px;
+  top: 15%;
+  left: 7%;
+  text-align: center;
+  font-size: 100px;
   font-weight: 700;
   color: white;
-  font-family: Brush Script MT;
+  font-family: Snell Roundhand;
   letter-spacing: 6px;
+  text-shadow: 5px 5px 0 rgba(61, 60, 60, 0.8);
+}
+/* Ako se stranica pokaze na vecem ekranu da li ce biti isto??????????? */
+.container3 {
+  background-color: rgba(53, 31, 31, 0.5);
+
+  width: 100%;
+  height: 60%;
+
+  bottom: 11%;
+
+  position: absolute;
+}
+.shop_button {
+  position: absolute;
+  bottom: 15%;
+  left: 36%;
+  width: 350px;
+  height: 80px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border: 2px solid;
+  border-color: white;
+}
+.shop_button_txt {
+  margin: auto auto;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  font-style: Snell Roundhand;
+  letter-spacing: 6px;
+}
+.shop_button:hover {
+  background-color: rgb(0, 0, 0, 0.5);
 }
 .cont {
   height: 100px;
 
   border: 1px solid black;
 }
-.gal {
-}
+
 #galerija h1 {
   font-size: 35px;
   margin-left: 40%;
@@ -175,4 +212,196 @@ section {
   height: 70px;
   object-fit: scale-down;
   margin-left: 37%;
+}
+/* css za footer */
+
+footer {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer_sve {
+  background: rgb(0, 0, 0);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer_sve .footer_lijevo,
+.footer_sve .footer_centar,
+.footer_sve .footer_desno {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer lijevo */
+
+.footer_sve .footer_lijevo {
+  width: 40%;
+}
+
+/* logo kockice */
+
+.footer_sve .logo_img {
+  width: 400px;
+  height: 200px;
+  object-fit: contain;
+  position: relative;
+  bottom: 30px;
+}
+
+/* linkovi u footeru */
+
+.footer_sve .footer_links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.footer_sve .footer_links a:hover {
+  color: aqua;
+}
+
+.footer_sve .footer_links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_sve .footer_ime_shopa {
+  color: aqua;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  bottom: 90px;
+  left: 140px;
+}
+
+/* footer centar */
+
+.footer_sve .footer_centar {
+  width: 35%;
+}
+
+.footer_sve .footer_centar i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer_sve .footer_centar i.fa-envelope {
+  font-size: 19px;
+  line-height: 38px;
+}
+
+.footer_sve .footer_centar p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer_sve .footer_centar p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer_sve .footer_centar p a {
+  font-size: 18px;
+  color: lightseagreen;
+  text-decoration: none;
+  position: relative;
+  right: 25px;
+}
+
+.footer_sve .footer_links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer_sve .footer_links .link1:before {
+  content: none;
+}
+
+/* footer desno */
+
+.footer_sve .footer_desno {
+  width: 20%;
+}
+
+.footer_sve .footer_o_nama {
+  line-height: 20px;
+  color: aqua;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+}
+
+.footer_sve .footer_o_nama .span1 {
+  color: aqua;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+  text-align: justify;
+}
+
+.footer_sve .footer_o_nama span {
+  display: block;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer_sve .footer_ikone {
+  margin-top: 25px;
+}
+
+.footer_sve .footer_ikone a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
