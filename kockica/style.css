@@ -86,8 +86,9 @@ section {
 }
 .text1 {
   position: absolute;
-  top: 15%;
-  left: 7%;
+
+  top: 20%;
+  width: 100%;
   text-align: center;
   font-size: 100px;
   font-weight: 700;
@@ -96,7 +97,8 @@ section {
   letter-spacing: 6px;
   text-shadow: 5px 5px 0 rgba(61, 60, 60, 0.8);
 }
-/* Ako se stranica pokaze na vecem ekranu da li ce biti isto??????????? */
+/* Ako se stranica pokaze na vecem ekranu da li ce biti isto???????????
+  zoom in zoom out -.- */
 .container3 {
   background-color: rgba(53, 31, 31, 0.5);
 
@@ -107,10 +109,14 @@ section {
 
   position: absolute;
 }
+.buttonsdiv {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+}
 .shop_button {
   position: absolute;
-  bottom: 15%;
-  left: 36%;
+
   width: 350px;
   height: 80px;
   background-color: Transparent;
