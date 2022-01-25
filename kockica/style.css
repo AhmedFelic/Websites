@@ -83,7 +83,39 @@ section {
   object-fit: fill;
   position: relative;
 }
+/*O meni*/
+.podjela_lijevo_desno {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tekst4 {
+  padding-top: 40px;
+}
+.novi_red {
+  padding-top: 40px;
+}
+.podjela_lijevo {
+  width: 40%;
+  text-align: justify;
+  font-size: 22px;
+}
+.podjela_lijevo h2 {
+  font-variant: small-caps;
+}
+.podjela_desno {
+  margin-top: 5%;
 
+  margin-right: 5%;
+  object-fit: fill;
+}
+.podjela_desno img {
+  width: 400px;
+  height: 500px;
+  box-shadow: 20px 0px 20px rgb(0 0 0 / 50%);
+}
+/*O meni*/
 .container2 {
   position: relative;
 }
