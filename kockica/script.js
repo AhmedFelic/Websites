@@ -20,3 +20,9 @@ function myFunction() {
    document.getElementById('pocetna').scrollIntoView();
   };
   myFunction();
+
+  /* */
+
+  function myNewFunction(src){
+      window.location(src);
+  }

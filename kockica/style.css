@@ -204,6 +204,7 @@ section {
   font-family: Snell Roundhand;
   font-variant: small-caps;
 }
+
 .klijent {
   display: flex;
   width: 100%;
@@ -387,12 +388,14 @@ footer {
   transition: 0.5s;
   cursor: pointer;
   opacity: 0;
+  font-size: 18px;
 }
 .product-card:hover .card-btn {
   opacity: 1;
 }
 .card-btn:hover {
-  background: #efefef;
+  background: #ffffff;
+  color: black;
 }
 
 .productname {
