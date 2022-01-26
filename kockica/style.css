@@ -112,6 +112,7 @@ section {
 }
 .podjela_desno img {
   width: 400px;
+  margin-left: 10%;
   height: 500px;
   box-shadow: 20px 0px 20px rgb(0 0 0 / 50%);
 }
@@ -194,19 +195,22 @@ section {
 }
 .klijent1 {
   background-color: white;
-
+  height: 100%;
   width: 280px;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
 }
 .klijent2 {
   background-color: white;
-
+  margin-left: 4%;
+  margin-right: 4%;
   width: 280px;
+  height: 100%;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
 }
 .klijent3 {
   width: 280px;
   background-color: white;
+  height: 100%;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 50%);
 }
 .klijent1 p {
@@ -580,4 +584,126 @@ footer {
   text-align: center;
 
   border-radius: 10px;
+}
+/*Responsive*/
+@media (max-width: 1000px) {
+  .home_slika {
+    object-fit: cover;
+  }
+}
+@media (max-width: 880px) {
+  .wrapper .linkovi a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .logo_slika {
+    width: 200px;
+  }
+  .home_slika {
+    object-fit: cover;
+  }
+  .podjela_desno .img {
+    margin-left: 5%;
+  }
+  .podjela_desno .slika1 {
+    width: 300px;
+  }
+  .o_nama_tekst {
+    margin-bottom: 15%;
+  }
+  .novi_red {
+    margin-top: 75%;
+    width: 600px;
+  }
+  .home {
+    height: 1000px;
+  }
+  .proizvodi1 {
+    height: 70vh;
+  }
+  .klijent2 {
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+  .logo_img {
+    display: none;
+  }
+  .footer_sve .footer_lijevo {
+    width: 100%;
+
+    display: block;
+    text-align: center;
+  }
+  .footer_sve .footer_links {
+    margin-bottom: 70px;
+  }
+  .footer_ime_shopa {
+    display: none;
+  }
+  .footer_sve .footer_centar {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .footer_sve .footer_desno {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 720px) {
+  .logo_slika {
+    display: none;
+  }
+  .home_slika {
+    object-fit: cover;
+  }
+  .wrapper .linkovi {
+    text-align: center;
+  }
+  .text1 {
+    text-align: left;
+
+    margin-left: 5%;
+  }
+  .buttonsdiv {
+    margin-top: 25px;
+    margin-left: 5%;
+  }
+  .podjela_desno .slika1 {
+    width: 100%;
+    align-content: center;
+    margin-left: 0;
+  }
+  .tekst4 {
+    width: 100%;
+  }
+  .podjela_lijevo {
+    width: 100%;
+  }
+  .novi_red {
+    margin-top: 5%;
+    width: 100%;
+  }
+  .home {
+    height: 1000px;
+  }
+  .podjela_lijevo_desno {
+    display: block;
+    height: 700px;
+  }
+  .proizvodi1 {
+    height: 50vh;
+  }
+  .klijent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .klijent2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
 }
