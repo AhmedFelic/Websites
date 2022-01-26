@@ -745,8 +745,18 @@ footer {
   }
 }
 @media (max-width: 540px) {
+  #proizvodi {
+    padding-top: 250px;
+  }
+  .logo_slika {
+    display: block;
+  }
+  .imgLink {
+    margin: 0;
+  }
   .checkbtn {
     display: block;
+    margin-top: 10px;
   }
   #check:checked ~ .wrapper .linkovi {
     left: 0;
@@ -787,6 +797,8 @@ footer {
   }
   .gal {
     height: 100vh;
+    margin-top: 200px;
+    margin-bottom: 100px;
   }
 }
 

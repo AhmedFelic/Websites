@@ -14,4 +14,9 @@ function slide(direction){
         }
     }, 50);
 }
+/*Skroll back na pocetak na refresh stranice */
 
+function myFunction() {
+   document.getElementById('pocetna').scrollIntoView();
+  };
+  myFunction();
