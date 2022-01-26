@@ -14,6 +14,18 @@ main {
   margin: auto auto;
   width: 80%;
 }
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -39,6 +51,12 @@ nav {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   margin-top: 12px;
+}
+#ikona {
+  display: none;
+  z-index: 10;
+  float: right;
+  margin-right: 2%;
 }
 a {
   text-decoration: none;
@@ -706,4 +724,41 @@ footer {
     margin-top: 4%;
     margin-bottom: 4%;
   }
+}
+@media (max-width: 540px) {
+  .checkbtn {
+    display: block;
+  }
+  #check:checked ~ .wrapper .linkovi {
+    left: 0;
+  }
+  .linkovi {
+    position: fixed;
+    width: 100%;
+    height: 500px;
+    background: rgba(65, 50, 50, 0.9);
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .linkovi a {
+    color: white;
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  .proizvodi1 {
+    height: 70vh;
+  }
+  footer {
+    margin-top: 200px;
+  }
+  .footer_links {
+    text-align: left;
+  }
+}
+
+@media (max-width: 420px) {
 }

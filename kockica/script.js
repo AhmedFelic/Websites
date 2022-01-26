@@ -14,3 +14,4 @@ function slide(direction){
         }
     }, 50);
 }
+
