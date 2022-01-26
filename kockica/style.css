@@ -634,7 +634,7 @@ footer {
     width: 600px;
   }
   .home {
-    height: 1000px;
+    height: 100vw;
   }
   .proizvodi1 {
     height: 70vh;
@@ -670,6 +670,7 @@ footer {
     margin-top: 40px;
   }
 }
+
 @media (max-width: 720px) {
   .logo_slika {
     display: none;
@@ -705,14 +706,18 @@ footer {
     width: 100%;
   }
   .home {
-    height: 1000px;
+    height: 150vw;
   }
   .podjela_lijevo_desno {
     display: block;
     height: 700px;
   }
   .proizvodi1 {
-    height: 50vh;
+    height: 120vw;
+  }
+  .gal {
+    height: 200vw;
+    margin-bottom: 10%;
   }
   .klijent {
     flex-direction: column;
@@ -723,6 +728,20 @@ footer {
     margin-left: 0;
     margin-top: 4%;
     margin-bottom: 4%;
+  }
+  .text1 {
+    width: 80%;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 615px) {
+  .home {
+    margin-bottom: 20%;
+  }
+  .proizvodi1 {
+    margin-top: 30%;
   }
 }
 @media (max-width: 540px) {
@@ -758,7 +777,32 @@ footer {
   .footer_links {
     text-align: left;
   }
+  .text1 {
+    width: 80%;
+    font-size: 70px;
+    text-align: center;
+  }
+  .home {
+    height: 100vh;
+  }
+  .gal {
+    height: 100vh;
+  }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
+  .text1 {
+    width: 80%;
+    font-size: 50px;
+    text-align: center;
+  }
+  .shop_button {
+    width: 200px;
+  }
+  .home {
+    height: 100vh;
+  }
+  .gal {
+    height: 100vh;
+  }
 }
