@@ -46,6 +46,7 @@ nav {
   position: fixed;
   object-fit: cover;
   z-index: 7;
+  top: 0;
 }
 .wrapper {
   font-family: "Lato", sans-serif;
@@ -816,8 +817,11 @@ footer {
   }
   .home {
     height: 100vh;
+    margin-bottom: 300px;
   }
   .gal {
     height: 100vh;
+    margin-top: 300px;
+    margin-bottom: 300px;
   }
 }
